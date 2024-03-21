@@ -14,10 +14,10 @@ import my_evaluate_sepsis_score
 batch_size = 300
 mask_value = -9999.0
 
-data_folder = '../../Data/Sets/'
-train_dir = data_folder+'Train/'
-val_dir = data_folder+'Validation/'
-test_dir = data_folder+'Test/'
+data_folder = '/content/'
+train_dir = data_folder+'train/'
+val_dir = data_folder+'val/'
+test_dir = data_folder+'test/'
 
 def read_challenge_data(input_file):
 	with open(input_file, 'r') as f:
